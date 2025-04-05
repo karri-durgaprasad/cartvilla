@@ -1,0 +1,143 @@
+.header{
+  display: flex;
+  justify-content: end;
+  background-color: aqua;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+
+}.header a {
+color: black; /* Change link color to black */
+text-decoration: none; /* Remove underline */
+margin: 0 10px;
+font-weight: bold;
+}
+
+.header a:hover {
+color: #4E4FFA; /* Change hover color to blue */
+}
+
+.header p{
+  margin: 50px;
+}
+.one{
+  height: 800px;
+  background-image: url('car photos/welcome-banner.jpg');
+ padding-top: 200px;
+ background-repeat: no-repeat;
+ 
+}
+.one-button{
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #4E4FFA;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: larger;
+  transition: 1s;
+}
+.one-button:hover{
+  background-color: blue;
+  cursor: pointer;
+
+}
+.two{
+  padding-top: 150px;
+  padding-left: 160px;
+  padding-bottom: 0px;
+  padding-right: 160px;
+
+}
+.two-button{
+  background-color: #4E4FFA;
+  padding: 15px;
+  color: white;
+  font-size: larger;
+  border: none;
+  border-radius: 4px  ;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
+.two-button:hover{
+  background-color: blue;
+  cursor: pointer;
+}
+.three{
+display: flex;
+padding-top: 0px;
+padding-left: 250px;
+padding-right: 250px;
+
+}
+.three-inner{
+border: solid black 1px;
+margin: 20px;
+height: 350px;
+width: 300px;
+margin-bottom: 150px;
+}
+.three-inner:hover{
+background-color: #4E4FFA;
+color: white;
+cursor: pointer;
+}
+.four-button{
+background-color: #4E4FFA;
+  padding: 15px;
+  color: white;
+  font-size: larger;
+  border: none;
+  border-radius: 4px  ;
+  padding-left: 50px;
+  padding-right: 50px;
+  transition: 1s;
+}
+.four-button:hover{
+background-color: blue;
+  cursor: pointer;
+}
+.five-flex{
+display: flex;
+justify-content: center;
+}
+.five-flex-inner{
+border: solid black 1px;  
+margin: 15px;
+}
+.client{
+border: black solid 1px;
+margin:10px ;
+border: none;
+border-radius: 4px;
+}
+.client:hover{
+background-color: #4E4FFA;
+cursor: pointer;
+color: white;
+}
+
+/* Added carousel specific styles */
+.carousel-item {
+padding: 20px;
+}
+.carousel-item img {
+max-height: 400px;
+width: auto;
+margin: 0 auto;
+display: block;
+}
+.carousel-control-prev,
+.carousel-control-next {
+width: 5%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+background-color: #4E4FFA;
+border-radius: 50%;
+padding: 15px;
+}
